@@ -11,6 +11,7 @@
         <script src="scripts/main-script.js" type="text/javascript"></script>
     </head>
     <body>
+        <!--#include virtual="admin.php" -->
         <header>
             <div class="logo"></div>
             <nav id="main-menu">
@@ -96,9 +97,19 @@
                     <table>
                         <thead>
                             <th>Арабіка</th>
+                            <th>Марагоджип</th>
                             <th>Робуста</th>
                         </thead>
                         <tr>
+                            <td>
+                                <ol>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ol>
+                            </td>
                             <td>
                                 <ol>
                                     <li></li>
@@ -123,21 +134,11 @@
                 <div id="tea-catalog">
                     <table>
                         <thead>
-                            <th>Зелений</th>
-                            <th>Чорний</th>
-                            <th>Фруктова суміш</th>
-                            <th>Трав'яна суміш</th>
+                            <th>Пуер</th>
+                            <th>Листовий</th>
+                            <th>В пакетиках</th>
                         </thead>
                         <tr>
-                            <td>
-                                <ol>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ol>
-                            </td>
                             <td>
                                 <ol>
                                     <li></li>
@@ -180,6 +181,7 @@
                             <li class="adress">вул. Собранецька, 89 <strong>"Дастор"</strong></li>
                             <li class="adress">вул. Яроцька, 2 <strong>"Вопак"</strong></li>
                             <li class="adress">вул. Минайська, 16 <strong>"Сільпо"</strong></li>
+                            <li class="adress">вул. Легоцького, 19 <strong>"Токіо"</strong></li>
                             <li class="adress">вул. Легоцького, 19 <strong>"Токіо"</strong></li>
                             <li class="adress">вул. Університетська, 14 <strong>УжНУ</strong></li>
                         </ul>

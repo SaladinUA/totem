@@ -54,6 +54,10 @@ body header .logo
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+
+    -webkit-filter: brightness(1.4);
+
+            filter: brightness(1.4);
 }
 body header #main-menu
 {
@@ -409,7 +413,7 @@ body main #about #about-us #gallery .full-screen img
 }
 body main #catalog
 {
-    min-height: 800px;
+    min-height: 650px;
 }
 body main #catalog #choose-category
 {
@@ -520,11 +524,6 @@ body main #catalog [id$='catalog'] table td:not(:last-of-type),
 body main #catalog [id$='catalog'] table th:not(:last-of-type)
 {
     border-right: 2px solid #663200;
-}
-body main #catalog [id$='catalog'] table th,
-body main #catalog [id$='catalog'] table td
-{
-    width: 33%;
 }
 body main #catalog [id$='catalog'] table th
 {
