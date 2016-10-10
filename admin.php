@@ -5,7 +5,7 @@
     <title>admin</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/admin-style.css">
-    <script src="http://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/admin-script.js"></script>
 </head>
 
