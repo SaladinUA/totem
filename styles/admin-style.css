@@ -1,0 +1,138 @@
+@font-face
+{
+    font-family: Vas; 
+
+    src: url('../fonts/9860.ttf');
+}
+
+body,
+html
+{
+    position: relative; 
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+form
+{
+    display: block;
+
+    width: 500px;
+    margin: 200px auto;
+    padding: 20px;
+
+    color: #663200; 
+    border-radius: 10px;
+    background-color: #f5e1a4;
+    box-shadow: 0 0 5px 0 #663200;
+}
+form fieldset
+{
+    text-align: center; 
+
+    border: none;
+}
+form fieldset legend
+{
+    font-size: 20px; 
+    font-weight: bold;
+}
+form fieldset input:focus
+{
+    outline: none;
+    box-shadow: 0 0 5px 0 #624a48;
+}
+form fieldset #login,
+form fieldset #password
+{
+    display: block;
+
+    width: 90%;
+    margin: 10px auto 0 auto;
+    padding: 10px;
+
+    color: #f5e1a4;
+    border-style: none; 
+    border-radius: 10px;
+    background: #663200;
+}
+form fieldset #submit,
+form fieldset #reset
+{
+    display: inline-block;
+
+    margin-top: 20px;
+    padding: 10px;
+
+    color: #f5e1a4;
+    border: none;
+    border-radius: 10px; 
+    background: #663200;
+}
+
+#admin-page
+{
+    display: none;
+
+    width: 100%;
+    height: 100%;
+}
+#admin-page #buttons
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+    width: 15%;
+    height: 100%;
+
+    -webkit-box-pack: start;
+
+        -ms-flex-pack: start;
+
+            justify-content: flex-start;
+}
+#admin-page #buttons button
+{
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    color: #f5e1a4;
+    border-style: solid; 
+    border-color: #624a48;
+    background-image: -webkit-linear-gradient(#c39255, #663200);
+    background-image: linear-gradient(#c39255, #663200);
+
+    -webkit-box-flex: 1;
+
+        -ms-flex-positive: 1;
+
+            flex-grow: 1;
+}
+#admin-page #buttons button:focus
+{
+    outline: none;
+}
+#admin-page #buttons button:active
+{
+    background: #cca36f;
+}
+#admin-page #editor
+{
+    float: right;
+
+    width: 85%;
+    height: 100%;
+
+    background: #cca36f;
+}
